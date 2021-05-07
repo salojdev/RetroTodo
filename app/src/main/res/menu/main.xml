@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        android:iconTint="@android:color/white"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_edit"
+        android:orderInCategory="100"
+        android:title="Edit"
+        android:icon="@drawable/ic_edit_24"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="SignOut"
+        android:icon="@drawable/ic_logout_24"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:title="Refresh"
+        android:icon="@drawable/ic_refresh_24"
+        app:showAsAction="always" />
+
+</menu>
